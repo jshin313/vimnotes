@@ -61,7 +61,7 @@ Add some nice remap to make thing easier:
 
 * \<leader\> pv: Open up file tree
 
-* \<leader\> ps: Project Search searches using ripgrep
+* \<leader\> ps: Project Search searches using ripgrep (Make sure to install ripgrep on your system)
 
 * \<leader\> ps: (Project Search) searches for stuff using ripgrep
 
@@ -69,5 +69,15 @@ Add some nice remap to make thing easier:
 * \<leader\> gr: Go to references  
 
 ## VIM Movements P2: 5 moves to make you better ked
-5. Remap Ctrl-c or Ctrl-{ to Esc
-4. 
+* Remap Ctrl-c or Ctrl-open bracket to Esc 
+```vimscript
+inoremap <C-c> <esc>
+```
+Instead of using the CAPS LOCK key for Esc, you can use it for CTRL.
+
+* When using f and t, you can use `,` to go backwards and `;` to go forwards to search for the same letter without repeating the same command
+* Use `c` instead of `d` to enter insert mode
+* You can use `i` and `a` in conjunction with c or d to remove whatever's inside {}, [], "", '', etc.
+  E.g. ci" will delete everything within the following string: "Hello, world".
+  ca" will delete everything inside the string as well as the "". 
+* 
