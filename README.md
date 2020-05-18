@@ -70,10 +70,10 @@ Add some nice remap to make thing easier:
 
 ## VIM Movements P2: 5 moves to make you better ked
 * Remap Ctrl-c or Ctrl-open bracket to Esc 
-```vimscript
-inoremap <C-c> <esc>
-```
-Instead of using the CAPS LOCK key for Esc, you can use it for CTRL.
+  ```vimscript
+  inoremap <C-c> <esc>
+  ```
+  Instead of using the CAPS LOCK key for Esc, you can use it for CTRL.
 
 * When using f and t, you can use `,` to go backwards and `;` to go forwards to search for the same letter without repeating the same command
 * Use `c` instead of `d` to enter insert mode
