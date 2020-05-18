@@ -4,18 +4,27 @@
 ## Vim Movements P1 - Your First Moves
 Don't use your arrow keys!
 
-j, k, h, l: down, up, left, right
-w, b: jump forward by word, jump backwards by word
-f, t: jump to a letter, jump one before a letter
-%: Go to respective parenthesis, brace, etc.
-Ctrl-d, Ctrl-u: jump down half page, jump up half page
-{, }: jump up a block, jump down by a block
-V: highlight line and enter visual mode
-P, p: paste up a line, paste down a line
-U: Capitalize stuff that's highlighted
-Ctrl-a, ctrl-x: Increment var, decrement var
-o, O: Insert newline below current, insert newline above current line (both enter insert mode)
-I, A: Enter insert mode at first character on a line, enter insert mode at last character in the current line
+j, k, h, l: down, up, left, right  
+w, b: jump forward by word, jump backwards by word  
+f, t: jump to a letter, jump one before a letter  
+%: Go to respective parenthesis, brace, etc.  
+
+Ctrl-d, Ctrl-u: jump down half page, jump up half page  
+
+{, }: jump up a block, jump down by a block  
+
+V: highlight line and enter visual mode  
+
+P, p: paste up a line, paste down a line  
+
+U: Capitalize stuff that's highlighted  
+
+Ctrl-a, ctrl-x: Increment var, decrement var  
+
+o, O: Insert newline below current, insert newline above current line (both enter insert mode)  
+
+I, A: Enter insert mode at first character on a line, enter insert mode at last character in the current line  
+
 
 ## Your first VimRC: How to setup your vim's vimrc
 Source or "execute" everything in a file with `source %`.  
@@ -57,4 +66,5 @@ Add some nice remap to make thing easier:
 * \<leader\> gr: Go to references  
 
 ## VIM Movements P2: 5 moves to make you better ked
-
+5. Remap Ctrl-c or Ctrl-{ to Esc
+4. 
