@@ -52,21 +52,21 @@ $ python3 install.py
 ```
 
 Add some nice remap to make thing easier:
-* \<leader\> h: Move to window on the left
-* \<leader\> l: Move to window on the right
-* \<leader\> j: Move to window on the bottom
-* \<leader\> k: Move to window on the top
+* \<leader\>h: Move to window on the left
+* \<leader\>l: Move to window on the right
+* \<leader\>j: Move to window on the bottom
+* \<leader\>k: Move to window on the top
 
-* \<leader\> u: Show undo tree
+* \<leader\>u: Show undo tree
 
-* \<leader\> pv: Open up file tree
+* \<leader\>pv: Open up file tree
 
-* \<leader\> ps: Project Search searches using ripgrep (Make sure to install ripgrep on your system)
+* \<leader\>ps: Project Search searches using ripgrep (Make sure to install ripgrep on your system)
 
-* \<leader\> ps: (Project Search) searches for stuff using ripgrep
+* \<leader\>ps: (Project Search) searches for stuff using ripgrep
 
-* \<leader\> gd: Go to definition
-* \<leader\> gr: Go to references  
+* \<leader\>gd: Go to definition
+* \<leader\>gr: Go to references  
 
 ## VIM Movements P2: 5 moves to make you better ked
 * Remap Ctrl-c or Ctrl-open bracket to Esc 
