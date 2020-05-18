@@ -80,4 +80,9 @@ Add some nice remap to make thing easier:
 * You can use `i` and `a` in conjunction with c or d to remove whatever's inside {}, [], "", '', etc.
   E.g. ci" will delete everything within the following string: "Hello, world".
   ca" will delete everything inside the string as well as the "". 
-* 
+* Marks allow jumping to points in a file: `mJ` will create a mark called J. `'J` will jump to the mark. Note: Capital letter are marks that are unique across multiple files while lowercase letters are for local file marks.
+* Bonus remap allows you to move highlighted regions up or down:
+  ```vimscript
+  vnoremap J :m '>+1<CR>gv=gv
+  vnoremap K :m '<-2<CR>gv=gv
+  ```
