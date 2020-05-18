@@ -5,8 +5,11 @@
 Don't use your arrow keys!
 
 j, k, h, l: down, up, left, right  
+
 w, b: jump forward by word, jump backwards by word  
+
 f, t: jump to a letter, jump one before a letter  
+
 %: Go to respective parenthesis, brace, etc.  
 
 Ctrl-d, Ctrl-u: jump down half page, jump up half page  
