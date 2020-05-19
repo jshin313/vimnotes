@@ -1,37 +1,32 @@
 # Vim Notes from the Primeagen
 [The Primeagen](https://www.youtube.com/playlist?list=PLm323Lc7iSW9kRCuzB3J_h7vPjIDedplM)
-## Making Vim Amazing - Why use Vim and the .vimrc
-Why Vim?
-* Fast: Doesn't take forever to load files
-* Autocomplete
-* Able to jump to definitions fast
 
 ## Vim Movements P1 - Your First Moves
 Don't use your arrow keys!
 
-j, k, h, l: down, up, left, right  
+`j`, `k`,`h`, `l`: down, up, left, right  
 
-w, b: jump forward by word, jump backwards by word  
+`w`, `b`: jump forward by word, jump backwards by word  
 
-f, t: jump to a letter, jump one before a letter  
+`f`, `t`: jump to a letter, jump one before a letter  
 
-%: Go to respective parenthesis, brace, etc.  
+`%`: Go to respective parenthesis, brace, etc.  
 
-Ctrl-d, Ctrl-u: jump down half page, jump up half page  
+`Ctrl-d`, `Ctrl-u`: jump down half page, jump up half page  
 
-{, }: jump up a block, jump down by a block  
+`{`, `}`: jump up a block, jump down by a block  
 
-V: highlight line and enter visual mode  
+`V`: highlight line and enter visual mode  
 
-P, p: paste up a line, paste down a line  
+`P`, `p`: paste up a line, paste down a line  
 
-U: Capitalize stuff that's highlighted  
+`U`: Capitalize stuff that's highlighted  
 
-Ctrl-a, ctrl-x: Increment var, decrement var  
+`Ctrl-a`, `ctrl-x`: Increment var, decrement var  
 
-o, O: Insert newline below current, insert newline above current line (both enter insert mode)  
+`o`, `O`: Insert newline below current, insert newline above current line (both enter insert mode)  
 
-I, A: Enter insert mode at first character on a line, enter insert mode at last character in the current line  
+`I`, `A`: Enter insert mode at first character on a line, enter insert mode at last character in the current line  
 
 
 ## Your first VimRC: How to setup your vim's vimrc
@@ -101,4 +96,19 @@ Use `dv` on the file you want to resolve if you have merge conflicts.
 The window on the left should be the current branch, the window on the right should be the one you just merged from, and the middle window is the resulting merge.  
 `<leader>gf`: Grab from the window on the left  
 `<leader>gj`: Grab from the window on the right  
-`Ctrl-w and ctrl-O`: save and close  
+`Ctrl-w` and `ctrl-O`: save and close  
+
+## Making Vim Amazing - Why use Vim and the .vimrc
+Why Vim?
+* Fast: Doesn't take forever to load files
+* Autocomplete
+* Able to jump to definitions fast
+
+## Vimium: Intro to using keyboard in your browser
+`j` and `k`: down and up
+`d`, `u`: half-page down, half-page up (you don't need ctrl)
+`f`: open link in current tab
+`H`: go back
+`V`: Visual mode highlight entire line
+`y`: yank
+
