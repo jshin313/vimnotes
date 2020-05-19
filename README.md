@@ -96,3 +96,4 @@ Use `dv` on the file you want to resolve if you have merge conflicts.
 The window on the left should be the current branch, the window on the right should be the one you just merged from, and the middle window is the resulting merge.  
 `<leader>gf`: Grab from the window on the left
 `<leader>gj`: Grab from the window on the right
+`Ctrl-w and ctrl-O`: save and close
