@@ -52,21 +52,21 @@ $ python3 install.py
 ```
 
 Add some nice remap to make thing easier:
-* \<leader\>h: Move to window on the left
-* \<leader\>l: Move to window on the right
-* \<leader\>j: Move to window on the bottom
-* \<leader\>k: Move to window on the top
+* `<leader>h`: Move to window on the left
+* `<leader>l`: Move to window on the right
+* `<leader>j`: Move to window on the bottom
+* `<leader>k`: Move to window on the top
 
-* \<leader\>u: Show undo tree
+* `<leader>u`: Show undo tree
 
-* \<leader\>pv: Open up file tree
+* `<leader>pv`: Open up file tree
 
-* \<leader\>ps: Project Search searches using ripgrep (Make sure to install ripgrep on your system)
+* `<leader>ps`: Project Search searches using ripgrep (Make sure to install ripgrep on your system)
 
-* \<leader\>ps: (Project Search) searches for stuff using ripgrep
+* `<leader>ps`: (Project Search) searches for stuff using ripgrep
 
-* \<leader\>gd: Go to definition
-* \<leader\>gr: Go to references  
+* `<leader>gd`: Go to definition
+* `<leader>gr`: Go to references  
 
 ## VIM Movements P2: 5 moves to make you better ked
 * Remap Ctrl-c or Ctrl-open bracket to Esc 
@@ -86,3 +86,13 @@ Add some nice remap to make thing easier:
   vnoremap J :m '>+1<CR>gv=gv
   vnoremap K :m '<-2<CR>gv=gv
   ```
+## Using Vim: Vim + Git - Fugitive
+`<leader>gs`: Git Status  
+Use `s` to stage and `u` to unstage.  
+`:Gcommit`: Commits stuff  
+`:Gpush`: Pushes stuff
+`:Git merge <branchname>`: Merge
+Use `dv` on the file you want to resolve if you have merge conflicts.  
+The window on the left should be the current branch, the window on the right should be the one you just merged from, and the middle window is the resulting merge.  
+`<leader>gf`: Grab from the window on the left
+`<leader>gj`: Grab from the window on the right
