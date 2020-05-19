@@ -1,5 +1,10 @@
 # Vim Notes from the Primeagen
 [The Primeagen](https://www.youtube.com/playlist?list=PLm323Lc7iSW9kRCuzB3J_h7vPjIDedplM)
+## Making Vim Amazing - Why use Vim and the .vimrc
+Why Vim?
+* Fast: Doesn't take forever to load files
+* Autocomplete
+* Able to jump to definitions fast
 
 ## Vim Movements P1 - Your First Moves
 Don't use your arrow keys!
