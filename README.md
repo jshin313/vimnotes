@@ -69,7 +69,7 @@ Add some nice remap to make thing easier:
 * `<leader>gr`: Go to references  
 
 ## VIM Movements P2: 5 moves to make you better ked
-* Use Ctrl-c or Ctrl-open bracket instead of Esc 
+* Use Ctrl-c or Ctrl-open bracket instead of Esc.  
   Instead of using the CAPS LOCK key for Esc, you can use it for CTRL.
 
 * When using f and t, you can use `,` to go backwards and `;` to go forwards to search for the same letter without repeating the same command
@@ -102,12 +102,12 @@ Why Vim?
 * Able to jump to definitions fast
 
 ## Vimium: Intro to using keyboard in your browser
-`j` and `k`: down and up
-`d`, `u`: half-page down, half-page up (you don't need ctrl)
-`f`: open link in current tab
-`H`: go back
-`V`: Visual mode highlight entire line
-`y`: yank
+`j` and `k`: down and up  
+`d`, `u`: half-page down, half-page up (you don't need ctrl)  
+`f`: open link in current tab  
+`H`: go back  
+`V`: Visual mode highlight entire line  
+`y`: yank  
 
 ## Using Vim: My Vim Workflow - Solving a bug
 
