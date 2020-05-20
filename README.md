@@ -69,10 +69,7 @@ Add some nice remap to make thing easier:
 * `<leader>gr`: Go to references  
 
 ## VIM Movements P2: 5 moves to make you better ked
-* Remap Ctrl-c or Ctrl-open bracket to Esc 
-  ```vimscript
-  inoremap <C-c> <esc>
-  ```
+* Use Ctrl-c or Ctrl-open bracket instead of Esc 
   Instead of using the CAPS LOCK key for Esc, you can use it for CTRL.
 
 * When using f and t, you can use `,` to go backwards and `;` to go forwards to search for the same letter without repeating the same command
@@ -111,4 +108,6 @@ Why Vim?
 `H`: go back
 `V`: Visual mode highlight entire line
 `y`: yank
+
+## Using Vim: My Vim Workflow - Solving a bug
 
