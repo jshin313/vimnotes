@@ -51,7 +51,7 @@ $ cd ~/.vim/plugged/YouCompleteMe
 $ python3 install.py
 ```
 
-Add some nice remap to make thing easier:
+Add some nice remap to make things easier:
 * `<leader>h`: Move to window on the left
 * `<leader>l`: Move to window on the right
 * `<leader>j`: Move to window on the bottom
