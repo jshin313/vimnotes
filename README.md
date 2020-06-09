@@ -61,9 +61,7 @@ Add some nice remap to make things easier:
 
 * `<leader>pv`: Open up file tree
 
-* `<leader>ps`: Project Search searches using ripgrep (Make sure to install ripgrep on your system)
-
-* `<leader>ps`: (Project Search) searches for stuff using ripgrep
+* `<leader>ps`: (Project Search) searches for stuff using ripgrep (Make sure to install ripgrep on your system)
 
 * `<leader>gd`: Go to definition
 * `<leader>gr`: Go to references  
