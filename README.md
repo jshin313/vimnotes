@@ -85,12 +85,13 @@ Add some nice remap to make things easier:
 `<leader>gs`: Git Status  
 Use `s` to stage and `u` to unstage.  
 `:Gcommit`: Commits stuff  
-`:Gpush`: Pushes stuff
+`:Gpush`: Pushes stuff  
+
 `:Git merge <branchname>`: Merge  
 Use `dv` on the file you want to resolve if you have merge conflicts.  
 The window on the left should be the current branch, the window on the right should be the one you just merged from, and the middle window is the resulting merge.  
-`<leader>gf`: Grab from the window on the left  
-`<leader>gj`: Grab from the window on the right  
+`<leader>gf`: Grab from the window on the left (Use 'gu' if using dvorak)  
+`<leader>gj`: Grab from the window on the right (Use 'gh' if using dvorak)  
 `Ctrl-w` and `ctrl-O`: save and close  
 
 ## Making Vim Amazing - Why use Vim and the .vimrc
