@@ -83,15 +83,22 @@ Add some nice remap to make things easier:
   ```
 ## Using Vim: Vim + Git - Fugitive
 `<leader>gs`: Git Status  
+
 Use `s` to stage and `u` to unstage.  
+
 `:Gcommit`: Commits stuff  
+
 `:Gpush`: Pushes stuff  
 
 `:Git merge <branchname>`: Merge  
+
 Use `dv` on the file you want to resolve if you have merge conflicts.  
-The window on the left should be the current branch, the window on the right should be the one you just merged from, and the middle window is the resulting merge.  
+The window on the left should be the current branch, the window on the right should be the one you just merged from, and the middle window is the resulting merge.    
+
 `<leader>gf`: Grab from the window on the left (Use 'gu' if using dvorak)  
+
 `<leader>gj`: Grab from the window on the right (Use 'gh' if using dvorak)  
+
 `Ctrl-w` and `ctrl-O`: save and close  
 
 ## Making Vim Amazing - Why use Vim and the .vimrc
@@ -102,11 +109,46 @@ Why Vim?
 
 ## Vimium: Intro to using keyboard in your browser
 `j` and `k`: down and up  
+
 `d`, `u`: half-page down, half-page up (you don't need ctrl)  
+
 `f`: open link in current tab  
+
 `H`: go back  
+
 `V`: Visual mode highlight entire line  
+
 `y`: yank  
 
 ## Using Vim: My Vim Workflow - Solving a bug
+#### First you want some plugins:
+* Gruvbox: "The greatest colorscheme ever bestowed to mankind"
+* COC: For autocomplete
+* Fzf: File finding
 
+Colorscheme:
+```
+colorscheme gruvbox
+```
+
+Nice remaps for coc and jumping to definition/references:
+```
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)
+```
+
+Fzf remap to make searching for files easier:
+```
+nnoremap <C-p> :GFiles<CR> 
+```
+
+#### Commands Used 
+`Ctrl-p`: Remap for :GFiles. Use it to search for a file. Works even for searching large codebases.  
+
+`<leader>gd`: Jump to definition  
+
+`Ctrl-^`: Jumps to the last file you were in
+
+`Ctrl-o`: Go back to last position
+
+`Ctrl-i`: Go forward position (Opposite of Ctrl-o)
