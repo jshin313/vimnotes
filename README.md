@@ -152,3 +152,11 @@ nnoremap <C-p> :GFiles<CR>
 `Ctrl-o`: Go back to last position
 
 `Ctrl-i`: Go forward position (Opposite of Ctrl-o)
+
+## VIM: Coolest Vim Command
+Let's say you have a line of code:
+```javascript
+const res = await fetch("http://localhost:8002", {
+```
+If you wanted to change the `http://localhost:8002` string inside the quotes,
+you don't have to use `f"` to go to the quotes, you can just use `ci"`. Vim automatically jumps to the nearest quote.
