@@ -160,3 +160,50 @@ const res = await fetch("http://localhost:8002", {
 ```
 If you wanted to change the `http://localhost:8002` string inside the quotes,
 you don't have to use `f"` to go to the quotes, you can just use `ci"`. Vim automatically jumps to the nearest quote.
+
+## Vim "g" Command: The Good Spot!!!
+`g Ctrl-g`: Shows you what line, column, word, and byte you're at and how far you're down the file
+
+`g8`: Get ASCII Code of current character
+
+`g<`: Get the output from the last command you executed
+
+`g&`: Replay your last s command (substitution)
+
+`gJ`: Combines the line below with the current line while keeping the spacing the same
+
+`gU motion`: Uppercase stuff
+
+`gu motion`: Lowercase stuff
+
+`gd`: Jump to definition in the file (or function?)
+
+`gf`: Jumps to a file
+
+`gF`: Jump to a line in a file
+
+`gq`: Automatically align text to 80 characters
+
+`gQ`: Enter Ex mode
+
+`8g_`: Jumps down *7* lines and puts you at the end of that line
+
+`g\$`: In wrap mode go to the end of the "line"
+
+`g??`: Rot13 on a line
+
+`gg`: To Top
+
+`G`: Bottom
+
+`gv`: Rehighlight what you previously highlighted
+
+`gi`: Go back to your previous insert spot
+
+`'<,'>g/Styled/d`: Delete all lines with "Styled"
+
+`'<,'>g/Styled/norm! diw`: Execute diw on every line with "Styled"
+
+`:help g`: A bunch more g commands
+
+`help :g`: All the fun searching g commands
