@@ -1,7 +1,11 @@
 # Vim Notes from the Primeagen
 [The Primeagen](https://www.youtube.com/playlist?list=PLm323Lc7iSW9kRCuzB3J_h7vPjIDedplM)
 
-## Vim Movements P1 - Your First Moves
+Notes written in (neo)vim
+
+## Vim Movements P1 - Your First Moves 
+https://www.youtube.com/watch?v=nnhqVDIx-go
+
 Don't use your arrow keys!
 
 `j`, `k`,`h`, `l`: down, up, left, right  
@@ -30,6 +34,8 @@ Don't use your arrow keys!
 
 
 ## Your first VimRC: How to setup your vim's vimrc
+https://www.youtube.com/watch?v=n9k9scbTuvQ
+
 Source or "execute" everything in a file with `source %`.  
 This applies changes made to .vimrc.  
 
@@ -67,6 +73,8 @@ Add some nice remap to make things easier:
 * `<leader>gr`: Go to references  
 
 ## VIM Movements P2: 5 moves to make you better ked
+https://www.youtube.com/watch?v=QN4fuSsWTbA
+
 * Use Ctrl-c or Ctrl-open bracket instead of Esc.  
   Instead of using the CAPS LOCK key for Esc, you can use it for CTRL.
 
@@ -77,11 +85,14 @@ Add some nice remap to make things easier:
   ca" will delete everything inside the string as well as the "". 
 * Marks allow jumping to points in a file: `mJ` will create a mark called J. `'J` will jump to the mark. Note: Capital letter are marks that are unique across multiple files while lowercase letters are for local file marks.
 * Bonus remap allows you to move highlighted regions up or down:
-  ```vimscript
-  vnoremap J :m '>+1<CR>gv=gv
-  vnoremap K :m '<-2<CR>gv=gv
-  ```
+``` {.vimscript}
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+```
+
 ## Using Vim: Vim + Git - Fugitive
+https://www.youtube.com/watch?v=PO6DxfGPQvw
+
 `<leader>gs`: Git Status  
 
 Use `s` to stage and `u` to unstage.  
@@ -102,12 +113,16 @@ The window on the left should be the current branch, the window on the right sho
 `Ctrl-w` and `ctrl-O`: save and close  
 
 ## Making Vim Amazing - Why use Vim and the .vimrc
+https://www.youtube.com/watch?v=Iid1Ms14Om4
+
 Why Vim?
 * Fast: Doesn't take forever to load files
 * Autocomplete
 * Able to jump to definitions fast
 
 ## Vimium: Intro to using keyboard in your browser
+https://www.youtube.com/watch?v=cA2aUFsSLac
+
 `j` and `k`: down and up  
 
 `d`, `u`: half-page down, half-page up (you don't need ctrl)  
@@ -121,7 +136,10 @@ Why Vim?
 `y`: yank  
 
 ## Using Vim: My Vim Workflow - Solving a bug
-#### First you want some plugins:
+https://www.youtube.com/watch?v=-I1b8BINyEw
+
+### First you want some plugins
+
 * Gruvbox: "The greatest colorscheme ever bestowed to mankind"
 * COC: For autocomplete
 * Fzf: File finding
@@ -142,7 +160,8 @@ Fzf remap to make searching for files easier:
 nnoremap <C-p> :GFiles<CR> 
 ```
 
-#### Commands Used 
+### Commands Used 
+
 `Ctrl-p`: Remap for :GFiles. Use it to search for a file. Works even for searching large codebases.  
 
 `<leader>gd`: Jump to definition  
@@ -154,6 +173,8 @@ nnoremap <C-p> :GFiles<CR>
 `Ctrl-i`: Go forward position (Opposite of Ctrl-o)
 
 ## VIM: Coolest Vim Command
+https://www.youtube.com/watch?v=E7NBhSsZouc
+
 Let's say you have a line of code:
 ```javascript
 const res = await fetch("http://localhost:8002", {
@@ -161,7 +182,9 @@ const res = await fetch("http://localhost:8002", {
 If you wanted to change the `http://localhost:8002` string inside the quotes,
 you don't have to use `f"` to go to the quotes, you can just use `ci"`. Vim automatically jumps to the nearest quote.
 
-## Vim "g" Command: The Good Spot!!!
+## Vim "g" Command
+https://www.youtube.com/watch?v=CN8p9iL7PPI
+
 `g Ctrl-g`: Shows you what line, column, word, and byte you're at and how far you're down the file
 
 `g8`: Get ASCII Code of current character
